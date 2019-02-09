@@ -35,6 +35,12 @@ class NotesViewController: NSViewController {
     @IBAction func reloadAllNotes(_ sender: Any) {
         tableView.reloadData()
     }
+
+    @IBAction func updateCurrentlySelectedRow(_ sender: NSTextField) {
+        let row = tableView.row(for: sender)
+        notes[row] = sender.stringValue
+    }
+    
 }
 
 // MARK: Data source for the notes table
