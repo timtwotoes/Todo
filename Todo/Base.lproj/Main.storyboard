@@ -751,7 +751,7 @@
                                                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                             <connections>
-                                                                                <action selector="updateCurrentlySelectedRow:" target="XfG-lQ-9wD" id="qGG-dC-lgj"/>
+                                                                                <action selector="updateNoteFromTextField:" target="XfG-lQ-9wD" id="xZB-Kb-9r4"/>
                                                                             </connections>
                                                                         </textField>
                                                                     </subviews>

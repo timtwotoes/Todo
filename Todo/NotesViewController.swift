@@ -36,7 +36,7 @@ class NotesViewController: NSViewController {
         tableView.reloadData()
     }
 
-    @IBAction func updateCurrentlySelectedRow(_ sender: NSTextField) {
+    @IBAction func updateNoteFromTextField(_ sender: NSTextField) {
         let row = tableView.row(for: sender)
         notes[row] = sender.stringValue
     }
