@@ -12,6 +12,7 @@
 		E930E155220EFA2F008E46A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E930E154220EFA2F008E46A8 /* Assets.xcassets */; };
 		E930E158220EFA2F008E46A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E930E156220EFA2F008E46A8 /* Main.storyboard */; };
 		E930E161220EFB48008E46A8 /* DynamicTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930E160220EFB48008E46A8 /* DynamicTextField.swift */; };
+		E930E163220F118F008E46A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E930E162220F118F008E46A8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E930E159220EFA2F008E46A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E930E15A220EFA2F008E46A8 /* Todo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Todo.entitlements; sourceTree = "<group>"; };
 		E930E160220EFB48008E46A8 /* DynamicTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTextField.swift; sourceTree = "<group>"; };
+		E930E162220F118F008E46A8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		E930E144220EFA2E008E46A8 = {
 			isa = PBXGroup;
 			children = (
+				E930E162220F118F008E46A8 /* README.md */,
 				E930E14F220EFA2E008E46A8 /* Todo */,
 				E930E14E220EFA2E008E46A8 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E930E163220F118F008E46A8 /* README.md in Resources */,
 				E930E155220EFA2F008E46A8 /* Assets.xcassets in Resources */,
 				E930E158220EFA2F008E46A8 /* Main.storyboard in Resources */,
 			);
